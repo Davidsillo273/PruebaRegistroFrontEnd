@@ -29,7 +29,7 @@ function App() {
       />
 
       <InputText
-        type="text"
+        type="number"
         value={edad}
         onChange={(event) => setEdad(event.target.value)}
         placeHolder={"Edad"}
